@@ -9,3 +9,10 @@ nltk
 gensim
 wandb
 gradio
+requests
+random
+re
+torch
+nltk
+requests
+xml.etree
