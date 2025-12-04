@@ -1,0 +1,6 @@
+models/*.pth
+models/*.bin
+models/bert_arxiv_classifier/
+__pycache__/
+*.pyc
+.ipynb_checkpoints
