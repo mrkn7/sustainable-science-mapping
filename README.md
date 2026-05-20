@@ -91,3 +91,18 @@ The repository is pre-configured as a **HuggingFace Space**. To deploy:
 
 ### Optional: showing real discipline names
 The app reads `models/attention_gru/labels.json` to map class IDs → discipline names. The shipped file contains placeholders (`Class 0`, `Class 1`, ...). Replace each value with the correct WOS-46985 sub-discipline name to display real labels in the UI.
+
+## Citation
+
+If you use this repository, please cite our paper:
+
+```
+@article{erkan2026sustainable,
+  title={Sustainable science mapping: benchmarking green AI against transformers for cross-disciplinary abstract classification using arXiv},
+  author={Erkan, Mehmet Ali and Yozgatl{\i}gil, Ceylan},
+  journal={Scientific Reports},
+  year={2026},
+  doi={10.1038/s41598-026-48795-7},
+  url={https://doi.org/10.1038/s41598-026-48795-7}
+}
+```
